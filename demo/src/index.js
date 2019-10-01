@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import styled, { createGlobalStyle } from "styled-components";
 import Example from "../../src";
-import firstTemplate from "./sample.json";
+import firstTemplate from "./firstTemplate.json";
 
 const GlobalStyle = createGlobalStyle`
   html, body {
@@ -64,7 +64,7 @@ class Demo extends Component {
 
             <button onClick={this.saveDesign}>Save Design</button>
             <button onClick={this.exportHtml}>Export HTML</button>
-            <button >Export JSON</button>
+            <button>Export JSON</button>
           </Bar>
 
           <Example
