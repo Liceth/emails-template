@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import styled, { createGlobalStyle } from "styled-components";
 
 import Example from "../../src";
-import sample from "./ejemplo.json";
+import sample from "./sample.json";
 
 const GlobalStyle = createGlobalStyle`
   html, body {
