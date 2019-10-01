@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import styled, { createGlobalStyle } from "styled-components";
-
 import Example from "../../src";
-import sample from "./sample.json";
+import firstTemplate from "./sample.json";
 
 const GlobalStyle = createGlobalStyle`
   html, body {
@@ -79,7 +78,7 @@ class Demo extends Component {
 
   onLoad = () => {
     // this.editor.addEventListener('onDesignLoad', this.onDesignLoad)
-    this.editor.loadDesign(sample);
+    this.editor.loadDesign(firstTemplate);
   };
 
   saveDesign = () => {
