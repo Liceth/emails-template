@@ -60,10 +60,11 @@ class Demo extends Component {
 
         <Container>
           <Bar>
-            <h1>React Email Editor (Demo)</h1>
+            <h1>Template Email Editor (Demo)</h1>
 
             <button onClick={this.saveDesign}>Save Design</button>
             <button onClick={this.exportHtml}>Export HTML</button>
+            <button >Export JSON</button>
           </Bar>
 
           <Example
