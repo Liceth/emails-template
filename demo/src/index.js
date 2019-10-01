@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
-import styled, { createGlobalStyle } from 'styled-components'
+import React, { Component } from "react";
+import { render } from "react-dom";
+import styled, { createGlobalStyle } from "styled-components";
 
-import Example from '../../src'
-import sample from './sample.json'
+import Example from "../../src";
+import sample from "./ejemplo.json";
 
 const GlobalStyle = createGlobalStyle`
   html, body {
@@ -16,19 +16,19 @@ const GlobalStyle = createGlobalStyle`
   #demo {
     height: 100%;
   }
-`
+`;
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
   height: 100%;
-`
+`;
 
 const Bar = styled.div`
   flex: 1;
-  background-color: #4169E1;
-  color: #FFF;
+  background-color: #4169e1;
+  color: #fff;
   padding: 10px;
   display: flex;
   max-height: 40px;
@@ -46,12 +46,12 @@ const Bar = styled.div`
     font-size: 14px;
     font-weight: bold;
     background-color: #000;
-    color: #FFF;
+    color: #fff;
     border: 0px;
     max-width: 150px;
     cursor: pointer;
   }
-`
+`;
 
 class Demo extends Component {
   render() {
@@ -68,38 +68,38 @@ class Demo extends Component {
           </Bar>
 
           <Example
-            ref={editor => this.editor = editor}
+            ref={editor => (this.editor = editor)}
             onLoad={this.onLoad}
             onDesignLoad={this.onDesignLoad}
           />
         </Container>
       </React.Fragment>
-    )
+    );
   }
 
   onLoad = () => {
     // this.editor.addEventListener('onDesignLoad', this.onDesignLoad)
-    this.editor.loadDesign(sample)
-  }
+    this.editor.loadDesign(sample);
+  };
 
   saveDesign = () => {
     this.editor.saveDesign(design => {
-      console.log('saveDesign', design)
-      alert("Design JSON has been logged in your developer console.")
-    })
-  }
+      console.log("saveDesign", design);
+      alert("Design JSON has been logged in your developer console.");
+    });
+  };
 
   exportHtml = () => {
     this.editor.exportHtml(data => {
-      const { design, html } = data
-      console.log('exportHtml', html)
-      alert("Output HTML has been logged in your developer console.")
-    })
-  }
+      const { design, html } = data;
+      console.log("exportHtml", html);
+      alert("Output HTML has been logged in your developer console.");
+    });
+  };
 
-  onDesignLoad = (data) => {
-    console.log('onDesignLoad', data)
-  }
+  onDesignLoad = data => {
+    console.log("onDesignLoad", data);
+  };
 }
 
-render(<Demo/>, document.querySelector('#demo'))
+render(<Demo />, document.querySelector("#demo"));
