@@ -11,7 +11,7 @@
                 "values": {
                   "maxWidth": "100%",
                   "src": {
-                    "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1569944167947-data.jpg",
+                    "url": "./assets/img/splash/banner.png",
                     "width": 266,
                     "height": 62
                   },
