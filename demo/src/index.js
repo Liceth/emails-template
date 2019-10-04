@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import styled, { createGlobalStyle } from "styled-components";
 import Example from "../../src";
-import firstTemplate from "./Template1Final.json";
+import firstTemplate from "./secondTemplate.json";
 
 const GlobalStyle = createGlobalStyle`
   html, body {
@@ -97,11 +97,11 @@ class Demo extends Component {
       alert("Output HTML has been logged in your developer console.");
     });
   };
-  downloadJSON = () =>{
-    this.editor.saveDesign(design => {
+  // downloadJSON = () =>{
+  //   this.editor.saveDesign(design => {
       
-    });
-  }
+  //   });
+  // }
 
   onDesignLoad = data => {
     console.log("onDesignLoad", data);
