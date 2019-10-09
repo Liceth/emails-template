@@ -117,7 +117,7 @@
                             {
                                 "type": "text",
                                 "values": {
-                                    "containerPadding": "20px 10px 10px",
+                                    "containerPadding": "21px 50px 10px",
                                     "_meta": {
                                         "htmlID": "u_content_text_3",
                                         "htmlClassNames": "u_content_text"
@@ -127,14 +127,14 @@
                                     "deletable": true,
                                     "color": "#000",
                                     "textAlign": "center",
-                                    "lineHeight": "120%",
-                                    "text": "<div><strong><span style=\"font-size: 48px; color: #ffffff; line-height: 57.6px;\">T&iacute;tulo de la noticia principal</span></strong></div>"
+                                    "lineHeight": "100%",
+                                    "text": "<div><span style=\"font-size: 48px; line-height: 48px;\"><strong><span style=\"color: #ffffff; line-height: 48px; font-size: 48px;\">T&iacute;tulo de la noticia principal</span></strong></span></div>"
                                 }
                             },
                             {
                                 "type": "text",
                                 "values": {
-                                    "containerPadding": "10px",
+                                    "containerPadding": "23px 7px 7px",
                                     "_meta": {
                                         "htmlID": "u_content_text_1",
                                         "htmlClassNames": "u_content_text"
@@ -145,7 +145,7 @@
                                     "color": "#000",
                                     "textAlign": "center",
                                     "lineHeight": "140%",
-                                    "text": "<p style=\"line-height: 140%; font-size: 14px;\"><span style=\"color: #ffffff;\"><strong>Subt&iacute;tulo importante de la noticia</strong></span></p>"
+                                    "text": "<p style=\"line-height: 140%; font-size: 14px;\"><span style=\"color: #ffffff; font-size: 24px; line-height: 33.6px; font-family: tahoma, arial, helvetica, sans-serif;\"><strong>Subt&iacute;tulo importante de la noticia</strong></span></p>"
                                 }
                             },
                             {
@@ -182,9 +182,9 @@
                                         "borderBottomColor": "#CCC"
                                     },
                                     "borderRadius": "37px",
-                                    "padding": "10px 30px",
-                                    "calculatedHeight": 56,
-                                    "calculatedWidth": 169,
+                                    "padding": "5px 50px",
+                                    "calculatedHeight": 46,
+                                    "calculatedWidth": 209,
                                     "text": "<strong><span style=\"font-size: 18px; line-height: 36px; font-family: tahoma, arial, helvetica, sans-serif;\">READ MORE</span></strong>"
                                 }
                             }
@@ -203,13 +203,14 @@
                     "columnsBackgroundColor": "rgba(255,255,255,0)",
                     "backgroundImage": {
                         "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1570484179769-austin-distel-Imc-IoZDMXc-unsplash%402x.png",
-                        "width": 1600,
-                        "height": 320,
                         "fullWidth": true,
                         "repeat": false,
-                        "center": true
+                        "center": true,
+                        "cover": false,
+                        "width": 1600,
+                        "height": 320
                     },
-                    "padding": "0px",
+                    "padding": "3px",
                     "hideMobile": false,
                     "noStackMobile": false,
                     "_meta": {
@@ -241,9 +242,9 @@
                                     "draggable": true,
                                     "deletable": true,
                                     "src": {
-                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1570204249620-smalls.png",
-                                        "width": 306,
-                                        "height": 200
+                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1570627672896-austin-distel-Imc-IoZDMXc-unsplash-1.png",
+                                        "width": 164,
+                                        "height": 165
                                     },
                                     "fullWidth": true,
                                     "textAlign": "center",
@@ -399,16 +400,16 @@
                                 "values": {
                                     "containerPadding": "0px",
                                     "_meta": {
-                                        "htmlID": "u_content_image_7",
+                                        "htmlID": "u_content_image_2",
                                         "htmlClassNames": "u_content_image"
                                     },
                                     "selectable": true,
                                     "draggable": true,
                                     "deletable": true,
                                     "src": {
-                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1570204249620-smalls.png",
-                                        "width": 306,
-                                        "height": 200
+                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1570627672896-austin-distel-Imc-IoZDMXc-unsplash-1.png",
+                                        "width": 164,
+                                        "height": 165
                                     },
                                     "fullWidth": true,
                                     "textAlign": "center",
@@ -423,7 +424,7 @@
                         ],
                         "values": {
                             "_meta": {
-                                "htmlID": "u_column_13",
+                                "htmlID": "u_column_3",
                                 "htmlClassNames": "u_column"
                             },
                             "padding": "0px",
@@ -450,7 +451,7 @@
                                 "values": {
                                     "containerPadding": "10px 15px 8px",
                                     "_meta": {
-                                        "htmlID": "u_content_text_14",
+                                        "htmlID": "u_content_text_3",
                                         "htmlClassNames": "u_content_text"
                                     },
                                     "selectable": true,
@@ -467,7 +468,7 @@
                                 "values": {
                                     "containerPadding": "10px 15px 10px 22px",
                                     "_meta": {
-                                        "htmlID": "u_content_text_15",
+                                        "htmlID": "u_content_text_4",
                                         "htmlClassNames": "u_content_text"
                                     },
                                     "selectable": true,
@@ -484,7 +485,7 @@
                                 "values": {
                                     "containerPadding": "5px 15px",
                                     "_meta": {
-                                        "htmlID": "u_content_button_7",
+                                        "htmlID": "u_content_button_2",
                                         "htmlClassNames": "u_content_button"
                                     },
                                     "selectable": true,
@@ -522,7 +523,7 @@
                         ],
                         "values": {
                             "_meta": {
-                                "htmlID": "u_column_14",
+                                "htmlID": "u_column_4",
                                 "htmlClassNames": "u_column"
                             }
                         }
@@ -543,7 +544,7 @@
                     "hideMobile": false,
                     "noStackMobile": false,
                     "_meta": {
-                        "htmlID": "u_row_7",
+                        "htmlID": "u_row_2",
                         "htmlClassNames": "u_row"
                     },
                     "selectable": true,
@@ -564,16 +565,16 @@
                                 "values": {
                                     "containerPadding": "0px",
                                     "_meta": {
-                                        "htmlID": "u_content_image_5",
+                                        "htmlID": "u_content_image_1",
                                         "htmlClassNames": "u_content_image"
                                     },
                                     "selectable": true,
                                     "draggable": true,
                                     "deletable": true,
                                     "src": {
-                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1570204249620-smalls.png",
-                                        "width": 306,
-                                        "height": 200
+                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1570627672896-austin-distel-Imc-IoZDMXc-unsplash-1.png",
+                                        "width": 164,
+                                        "height": 165
                                     },
                                     "fullWidth": true,
                                     "textAlign": "center",
@@ -588,7 +589,7 @@
                         ],
                         "values": {
                             "_meta": {
-                                "htmlID": "u_column_9",
+                                "htmlID": "u_column_1",
                                 "htmlClassNames": "u_column"
                             },
                             "padding": "0px",
@@ -615,7 +616,7 @@
                                 "values": {
                                     "containerPadding": "10px 15px 8px",
                                     "_meta": {
-                                        "htmlID": "u_content_text_10",
+                                        "htmlID": "u_content_text_1",
                                         "htmlClassNames": "u_content_text"
                                     },
                                     "selectable": true,
@@ -632,7 +633,7 @@
                                 "values": {
                                     "containerPadding": "10px 15px 10px 22px",
                                     "_meta": {
-                                        "htmlID": "u_content_text_11",
+                                        "htmlID": "u_content_text_2",
                                         "htmlClassNames": "u_content_text"
                                     },
                                     "selectable": true,
@@ -649,7 +650,7 @@
                                 "values": {
                                     "containerPadding": "5px 15px",
                                     "_meta": {
-                                        "htmlID": "u_content_button_5",
+                                        "htmlID": "u_content_button_1",
                                         "htmlClassNames": "u_content_button"
                                     },
                                     "selectable": true,
@@ -687,7 +688,7 @@
                         ],
                         "values": {
                             "_meta": {
-                                "htmlID": "u_column_10",
+                                "htmlID": "u_column_2",
                                 "htmlClassNames": "u_column"
                             }
                         }
@@ -708,7 +709,7 @@
                     "hideMobile": false,
                     "noStackMobile": false,
                     "_meta": {
-                        "htmlID": "u_row_5",
+                        "htmlID": "u_row_1",
                         "htmlClassNames": "u_row"
                     },
                     "selectable": true,
