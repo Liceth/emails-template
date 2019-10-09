@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import styled, { createGlobalStyle } from "styled-components";
 import Example from "../../src";
-import firstTemplate from "./fifthTemplate.json";
+import firstTemplate from "./firstTemplate.json";
 
 const GlobalStyle = createGlobalStyle`
   html, body {
