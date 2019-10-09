@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import styled, { createGlobalStyle } from "styled-components";
 import Example from "../../src";
-import firstTemplate from "./Template1Final.json";
+import firstTemplate from "./clonetemplate.json";
 
 const GlobalStyle = createGlobalStyle`
   html, body {
@@ -61,10 +61,8 @@ class Demo extends Component {
         <Container>
           <Bar>
             <h1>Template Email Editor (Demo)</h1>
-
             <button onClick={this.saveDesign}>Save Design</button>
             <button onClick={this.exportHtml}>Export HTML</button>
-            <button>Download JSON</button>
           </Bar>
 
           <Example
@@ -85,7 +83,6 @@ class Demo extends Component {
   saveDesign = () => {
     this.editor.saveDesign(design => {
       console.log("saveDesign", design);
-      const design2 = design;
       alert("Design JSON has been logged in your developer console.");
     });
   };
@@ -97,11 +94,6 @@ class Demo extends Component {
       alert("Output HTML has been logged in your developer console.");
     });
   };
-  // downloadJSON = () =>{
-  //   this.editor.saveDesign(design => {
-
-  //   });
-  // }
 
   onDesignLoad = data => {
     console.log("onDesignLoad", data);

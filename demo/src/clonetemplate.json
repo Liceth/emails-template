@@ -3,6 +3,7 @@
         "rows": [
             {
                 "cells": [
+                    1,
                     1
                 ],
                 "columns": [
@@ -36,6 +37,46 @@
                             }
                         ],
                         "values": {
+                            "_meta": {
+                                "htmlID": "u_column_1",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    },
+                    {
+                        "contents": [
+                            {
+                                "type": "button",
+                                "values": {
+                                    "containerPadding": "13px 0px 13px 14px",
+                                    "_meta": {
+                                        "htmlID": "u_content_button_4",
+                                        "htmlClassNames": "u_content_button"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "deletable": true,
+                                    "href": "",
+                                    "buttonColors": {
+                                        "color": "#FFFFFF",
+                                        "backgroundColor": "#414141",
+                                        "hoverColor": "#414141"
+                                    },
+                                    "textAlign": "right",
+                                    "lineHeight": "120%",
+                                    "border": {},
+                                    "borderRadius": "4px",
+                                    "padding": "10px",
+                                    "text": "<span style=\"text-decoration: underline; font-size: 14px; line-height: 16.8px;\"><span style=\"font-size: 14px; line-height: 16.8px;\">Informaci&oacute;n Legal</span></span>",
+                                    "calculatedWidth": 148,
+                                    "calculatedHeight": 36
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "",
+                            "padding": "0px",
+                            "border": {},
                             "_meta": {
                                 "htmlID": "u_column_1",
                                 "htmlClassNames": "u_column"
@@ -944,7 +985,7 @@
                             {
                                 "type": "text",
                                 "values": {
-                                    "containerPadding": "10px",
+                                    "containerPadding": "14px 11px 0px",
                                     "_meta": {
                                         "htmlID": "u_content_text_13",
                                         "htmlClassNames": "u_content_text"
@@ -992,10 +1033,10 @@
                                         "borderBottomColor": "#CCC"
                                     },
                                     "borderRadius": "37px",
-                                    "padding": "10px 30px",
-                                    "calculatedHeight": 56,
-                                    "calculatedWidth": 177,
-                                    "text": "<strong><span style=\"font-size: 18px; line-height: 36px; font-family: tahoma, arial, helvetica, sans-serif;\">CONTACT US</span></strong>"
+                                    "padding": "6px",
+                                    "calculatedHeight": 49,
+                                    "calculatedWidth": 129,
+                                    "text": "<span style=\"font-size: 18px; line-height: 36px;\"><strong><span style=\"line-height: 36px; font-family: tahoma, arial, helvetica, sans-serif; font-size: 18px;\">CONTACT US</span></strong></span>"
                                 }
                             }
                         ],
@@ -1033,7 +1074,7 @@
                         "center": false,
                         "cover": false
                     },
-                    "padding": "7px",
+                    "padding": "0px",
                     "hideMobile": false,
                     "noStackMobile": false,
                     "_meta": {
