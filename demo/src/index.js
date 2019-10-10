@@ -51,7 +51,25 @@ const Bar = styled.div`
     cursor: pointer;
   }
 `;
+function downloadJSON(data, filename, type = "text/plain") {
+  // Create an invisible A element
+  const a = document.createElement("a");
+  a.style.display = "none";
+  document.body.appendChild(a);
 
+  // Set the HREF to a Blob representation of the data to be downloaded
+  a.href = window.URL.createObjectURL(new Blob([data], { type }));
+
+  // Use download attribute to set set desired file name
+  a.setAttribute("download", fileName);
+
+  // Trigger the download by simulating click
+  a.click();
+
+  // Cleanup
+  window.URL.revokeObjectURL(a.href);
+  document.body.removeChild(a);
+}
 class Demo extends Component {
   render() {
     return (
@@ -81,12 +99,34 @@ class Demo extends Component {
     // this.editor.addEventListener('onDesignLoad', this.onDesignLoad)
     this.editor.loadDesign(firstTemplate);
   };
+  // downloadJSON = (data, filename, type = "text/plain") => {
+  //   // Create an invisible A element
+  //   const a = document.createElement("a");
+  //   a.style.display = "none";
+  //   document.body.appendChild(a);
+
+  //   // Set the HREF to a Blob representation of the data to be downloaded
+  //   a.href = window.URL.createObjectURL(new Blob([data], { type }));
+
+  //   // Use download attribute to set set desired file name
+  //   a.setAttribute("download", fileName);
+
+  //   // Trigger the download by simulating click
+  //   a.click();
+
+  //   // Cleanup
+  //   window.URL.revokeObjectURL(a.href);
+  //   document.body.removeChild(a);
+  // };
 
   saveDesign = () => {
     this.editor.saveDesign(design => {
-      console.log("saveDesign", design);
-      const design2 = design;
-      alert("Design JSON has been logged in your developer console.");
+      //console.log("saveDesign", design);
+      //alert("Design JSON has been logged in your developer console.");
+      console.log(JSON.stringify(design.body));
+      var body = JSON.stringify(design.body);
+      var filename = "template.json";
+      downloadJSON(body, "template.json", "text/plain");
     });
   };
 
